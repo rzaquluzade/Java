@@ -1,0 +1,10 @@
+databaseChangeLog:
+
+  - include:
+      file: liquibase/students/001-create-students.yaml
+
+  - include:
+      file: liquibase/student-profiles/001-create-student-profiles.yaml
+
+  - include:
+      file: liquibase/courses/001-create-courses.yaml
